@@ -1,7 +1,7 @@
 #!/bin/bash
 
-stat=$( acpi -b | awk '{print $3}' | cut -c -8 )
-batt=$( acpi -b | awk '{print $4}' | cut -c -3 )
+stat=$( acpi | awk '{print $3}' | cut -c -8 )
+batt=$( acpi | awk '{print $4}' | cut -c -3 )
 
 if [ $stat == "Charging" ]; then
         echo "⌁ $batt"
