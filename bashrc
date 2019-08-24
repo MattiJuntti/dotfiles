@@ -11,6 +11,7 @@ alias ff='/usr/bin/firefox &> /dev/null &'
 alias ls='ls --color=auto --group-directories-first'
 alias open='open(){ xdg-open "$@" &> /dev/null & }; open'
 alias lockscrn='gnome-screensaver-command --lock'
+alias cal='cal -m'
 
 # ----------------------------------------------------------------------
 # FUNCTIONS
