@@ -6,7 +6,7 @@ batt=$( acpi | awk '{print $4}' | tr -dc '0-9' )
 if [ $stat == "Charging" ]; then
         echo "⌁ $batt%"
 
-elif [ $stat == "Full," ]; then
+elif [ $batt == 100 ]; then
         echo "✔ $batt%"
 
 else
