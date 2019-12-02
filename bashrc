@@ -20,5 +20,9 @@ mkcd() {
       mkdir -p "$1" && cd "$1"
 }
 
+qc() {
+    echo "$1" | bc -l
+}
+
 export VISUAL=vim
 export EDITOR="$VISUAL"
