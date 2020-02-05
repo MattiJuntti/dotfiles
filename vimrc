@@ -13,6 +13,9 @@ Plugin 'ervandew/supertab'
 Plugin 'godlygeek/tabular'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'alvan/vim-closetag'
+Plugin 'triglav/vim-visual-increment'
+Plugin 'tpope/vim-surround'
 
 call vundle#end()
 filetype plugin indent on
