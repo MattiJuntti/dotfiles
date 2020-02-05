@@ -15,6 +15,7 @@ hi Constant        guifg=#FFFFFF    guibg=#000000    ctermfg=250    ctermbg=236 
 hi Cursor          guifg=#FFFFFF    guibg=#000000    ctermfg=250    ctermbg=236    gui= NONE    cterm=NONE
 hi CursorColumn    guifg=#FFFFFF    guibg=#000000    ctermfg=250    ctermbg=236    gui= NONE    cterm=NONE
 hi CursorLine      guifg=#FFFFFF    guibg=#000000    ctermfg=250    ctermbg=237    gui= NONE    cterm=NONE
+hi CursorLineNr    guifg=#FFFFFF    guibg=#000000    ctermfg=250    ctermbg=237    gui= NONE    cterm=bold
 hi DiffAdd         guifg=#FFFFFF    guibg=#000000    ctermfg=250    ctermbg=236    gui= NONE    cterm=NONE
 hi DiffChange      guifg=#FFFFFF    guibg=#000000    ctermfg=250    ctermbg=236    gui= NONE    cterm=NONE
 hi DiffDelete      guifg=#FFFFFF    guibg=#000000    ctermfg=250    ctermbg=236    gui= NONE    cterm=NONE
@@ -34,9 +35,9 @@ hi MoreMsg         guifg=#FFFFFF    guibg=#000000    ctermfg=250    ctermbg=236 
 hi NonText         guifg=#FFFFFF    guibg=#000000    ctermfg=250    ctermbg=236    gui= NONE    cterm=NONE
 hi Normal          guifg=#FFFFFF    guibg=#000000    ctermfg=250    ctermbg=236    gui= NONE    cterm=NONE
 hi Number          guifg=#FFFFFF    guibg=#000000    ctermfg=250    ctermbg=236    gui= NONE    cterm=NONE
-hi Pmenu           guifg=#FFFFFF    guibg=#000000    ctermfg=250    ctermbg=236    gui= NONE    cterm=NONE
+hi Pmenu           guifg=#FFFFFF    guibg=#000000    ctermfg=250    ctermbg=238   gui= NONE    cterm=NONE
 hi PmenuSbar       guifg=#FFFFFF    guibg=#000000    ctermfg=250    ctermbg=236    gui= NONE    cterm=NONE
-hi PmenuSel        guifg=#FFFFFF    guibg=#000000    ctermfg=250    ctermbg=236    gui= NONE    cterm=NONE
+hi PmenuSel        guifg=#FFFFFF    guibg=#000000    ctermfg=250    ctermbg=4      gui= NONE    cterm=NONE
 hi PmenuThumb      guifg=#FFFFFF    guibg=#000000    ctermfg=250    ctermbg=236    gui= NONE    cterm=NONE
 hi PreProc         guifg=#FFFFFF    guibg=#000000    ctermfg=250    ctermbg=236    gui= NONE    cterm=NONE
 hi Search          guifg=#FFFFFF    guibg=#000000    ctermfg=255    ctermbg=2      gui= NONE    cterm=BOLD
