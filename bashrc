@@ -10,7 +10,7 @@ PS1=' $ '
 alias ff='/usr/bin/firefox &> /dev/null &'
 alias ls='ls --color=auto --group-directories-first'
 alias open='open(){ xdg-open "$@" &> /dev/null & }; open'
-alias cal='cal -m'
+alias cal='task calendar'
 alias suspend='systemctl suspend'
 alias toggle_touchpad='~/.dotfiles/scripts/toggle_touchpad.sh'
 
