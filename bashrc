@@ -24,5 +24,10 @@ qc() {
     echo "$1" | bc -l
 }
 
+task-due() {
+    task information "$1" | grep ^Description
+    task information "$1" | grep ^Due
+}
+
 export VISUAL=vim
 export EDITOR="$VISUAL"
