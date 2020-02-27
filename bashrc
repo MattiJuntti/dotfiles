@@ -29,5 +29,9 @@ task-due() {
     task information "$1" | grep ^Due
 }
 
+argumake() {
+    make argument-build COMMAND_LINE_ARGUMENT="$argument";
+}
+
 export VISUAL=vim
 export EDITOR="$VISUAL"
