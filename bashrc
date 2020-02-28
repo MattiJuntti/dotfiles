@@ -7,6 +7,7 @@ export EDITOR="$VISUAL"
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# Set default Prompt String 1
 PS1=' $ '
 
 # ----------------------------------------------------------------------
