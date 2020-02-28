@@ -40,6 +40,6 @@ task-due() {
 # Wrapper for calling Makefile with CLI argument
 # Note: Work in progress
 argumake() {
-    make argument-build COMMAND_LINE_ARGUMENT="$argument";
+    make argument-build COMMAND_LINE_ARGUMENT="$1";
 }
 
