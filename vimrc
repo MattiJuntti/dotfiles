@@ -38,7 +38,6 @@ inoremap jj <C-c>
 
 " supertab _____________________________________________________________
 let g:SuperTabDefaultCompletionType = "<c-n>"  "scroll top to bottom"
-" ______________________________________________________________________
 
 " airline ______________________________________________________________
 let g:airline_theme='term'
