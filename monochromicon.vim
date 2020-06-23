@@ -41,6 +41,7 @@ hi PmenuSel        guifg=#FFFFFF    guibg=#000000    ctermfg=255    ctermbg=4   
 hi PmenuThumb      guifg=#FFFFFF    guibg=#000000    ctermfg=255    ctermbg=237    gui= NONE    cterm=NONE
 hi PreProc         guifg=#FFFFFF    guibg=#000000    ctermfg=255    ctermbg=237    gui= NONE    cterm=NONE
 hi Search          guifg=#FFFFFF    guibg=#000000    ctermfg=255    ctermbg=2      gui= NONE    cterm=BOLD
+hi SignColumn      guifg=#FFFFFF    guibg=#000000    ctermfg=255    ctermbg=237    gui= NONE    cterm=NONE
 hi Special         guifg=#FFFFFF    guibg=#000000    ctermfg=255    ctermbg=237    gui= NONE    cterm=NONE
 hi SpecialKey      guifg=#FFFFFF    guibg=#000000    ctermfg=255    ctermbg=237    gui= NONE    cterm=NONE
 hi Statement       guifg=#FFFFFF    guibg=#000000    ctermfg=255    ctermbg=237    gui= NONE    cterm=NONE
