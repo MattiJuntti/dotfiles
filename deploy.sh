@@ -29,3 +29,4 @@ link ~/git/dotfiles/vimrc ~/.vimrc
 link ~/git/dotfiles/tmux.conf ~/.tmux.conf
 link ~/git/dotfiles/bash_profile ~/.bash_profile
 link ~/git/dotfiles/bashrc ~/.bashrc
+link ~/git/dotfiles/gitconfig ~/.gitconfig

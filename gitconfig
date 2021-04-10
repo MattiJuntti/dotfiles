@@ -1,0 +1,14 @@
+[user]
+	name = Matti Juntti
+	email = matti.juntti@pm.me
+
+[alias]
+	st   = status
+	ci   = commit
+    di   = diff
+	co   = checkout
+	br   = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
+    lo   = log --pretty=oneline --abbrev-commit
+    del  = branch -D
+    undo = reset HEAD~1 --mixed
+
