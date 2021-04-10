@@ -9,6 +9,8 @@ function link() {
 }
 
 if [ ! -d "~/.vim/" ]; then
+    printf "Creating directory ~/.vim/bundle\n"
+    printf "Creating directory ~/.vim/colors\n"
     mkdir -p ~/.vim/bundle/;
     mkdir -p ~/.vim/colors;
 fi
@@ -25,8 +27,8 @@ fi
 printf "Copying monochromicon.vim to ~/.vim/colors\n"
 cp monochromicon.vim ~/.vim/colors/
 
+link ~/git/dotfiles/bashrc ~/.bashrc
+link ~/git/dotfiles/bash_profile ~/.bash_profile
 link ~/git/dotfiles/vimrc ~/.vimrc
 link ~/git/dotfiles/tmux.conf ~/.tmux.conf
-link ~/git/dotfiles/bash_profile ~/.bash_profile
-link ~/git/dotfiles/bashrc ~/.bashrc
 link ~/git/dotfiles/gitconfig ~/.gitconfig
