@@ -3,12 +3,13 @@
 # Set Vim as default editor
 export VISUAL=vim
 export EDITOR="$VISUAL"
+export MANWIDTH=100
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
 # Set default Prompt String 1
-PS1=' $ '
+PS1="\[\033[1;37m\] ▶ \[\033[00m\]"
 
 # ----------------------------------------------------------------------
 # ALIASES
@@ -17,7 +18,8 @@ alias ls='ls --color=auto --group-directories-first'
 alias open='open(){ xdg-open "$@" &> /dev/null & }; open'
 alias cal='task calendar'
 alias suspend='systemctl suspend'
-alias toggle_touchpad='~/.dotfiles/scripts/toggle_touchpad.sh'
+alias toggle_touchpad='~/git/dotfiles/scripts/toggle_touchpad.sh'
+alias vmod='vim -p `git diff --name-only `'
 
 # ----------------------------------------------------------------------
 # FUNCTIONS
