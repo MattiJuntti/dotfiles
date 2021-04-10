@@ -8,6 +8,11 @@ function link() {
     fi
 }
 
+if [ ! -d "~/.vim/" ]; then
+    mkdir -p ~/.vim/bundle/;
+    mkdir -p ~/.vim/colors;
+fi
+
 printf "Cloning Vim Vundle Plugin\n"
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
