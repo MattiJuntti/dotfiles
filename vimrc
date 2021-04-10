@@ -22,6 +22,7 @@ filetype plugin indent on
 
 colorscheme monochromicon
 
+" settings _____________________________________________________________
 syntax on
 set expandtab
 set number
@@ -32,12 +33,22 @@ set mousehide
 set cursorline
 set shiftwidth=4
 set updatetime=100
+set path+=$PWD/**
+set autoread | au CursorHold * checktime
 
-inoremap jj <C-c>
+:nnoremap <silent><Leader><C-]> <C-w><C-]><C-w>T
+:inoremap jj <C-c>
 :map <f9> :make
 
 " supertab _____________________________________________________________
-let g:SuperTabDefaultCompletionType = "<c-n>"  "scroll top to bottom"
+let g:SuperTabDefaultCompletionType = "<c-n>"
 
 " airline ______________________________________________________________
 let g:airline_theme='term'
+
+" closetag _____________________________________________________________
+let g:closetag_filenames='*.php,*.html'
+
+" autocommands _________________________________________________________
+autocmd FileType php set fo+=t
+autocmd VimEnter * AirlineToggleWhitespace
