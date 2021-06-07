@@ -4,6 +4,7 @@
 export VISUAL=vim
 export EDITOR="$VISUAL"
 export MANWIDTH=100
+export HISTTIMEFORMAT="%d/%m/%y %T "
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
@@ -20,6 +21,8 @@ alias cal='task calendar'
 alias suspend='systemctl suspend'
 alias toggle_touchpad='~/git/dotfiles/scripts/toggle_touchpad.sh'
 alias vmod='vim -p `git diff --name-only `'
+
+bind -x '"\el":"clear"'
 
 # ----------------------------------------------------------------------
 # FUNCTIONS
