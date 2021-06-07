@@ -12,3 +12,5 @@
     del  = branch -D
     undo = reset HEAD~1 --mixed
 
+[init]
+	defaultBranch = main
