@@ -16,6 +16,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'alvan/vim-closetag'
 Plugin 'triglav/vim-visual-increment'
 Plugin 'tpope/vim-surround'
+Plugin 'iamcco/markdown-preview.nvim'
 
 call vundle#end()
 filetype plugin indent on
@@ -47,7 +48,7 @@ let g:SuperTabDefaultCompletionType = "<c-n>"
 let g:airline_theme='term'
 
 " closetag _____________________________________________________________
-let g:closetag_filenames='*.php,*.html'
+let g:closetag_filenames='*.php,*.html,*.md'
 
 " autocommands _________________________________________________________
 autocmd FileType php set fo+=t
