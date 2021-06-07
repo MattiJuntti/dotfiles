@@ -10,7 +10,7 @@ function link() {
 
 if [ ! -d "~/.vim/" ]; then
     printf "Creating directory ~/.vim/bundle\n"
-    printf "Creating directory ~/.vim/colors\n"
+    printf "Creating directory ~/.vim/color\n"
     mkdir -p ~/.vim/bundle/;
     mkdir -p ~/.vim/colors;
 fi
