@@ -2,23 +2,21 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+call plug#begin('~/.vim/plugged')
+    Plug 'VundleVim/Vundle.vim'
+    Plug 'vim-airline/vim-airline'
+    Plug 'christoomey/vim-tmux-navigator'
+    Plug 'jiangmiao/auto-pairs'
+    Plug 'ervandew/supertab'
+    Plug 'godlygeek/tabular'
+    Plug 'vim-airline/vim-airline-themes'
+    Plug 'airblade/vim-gitgutter'
+    Plug 'alvan/vim-closetag'
+    Plug 'triglav/vim-visual-increment'
+    Plug 'tpope/vim-surround'
+    Plug 'iamcco/markdown-preview.nvim'
+call plug#end()
 
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'vim-airline/vim-airline'
-Plugin 'christoomey/vim-tmux-navigator'
-Plugin 'jiangmiao/auto-pairs'
-Plugin 'ervandew/supertab'
-Plugin 'godlygeek/tabular'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'alvan/vim-closetag'
-Plugin 'triglav/vim-visual-increment'
-Plugin 'tpope/vim-surround'
-Plugin 'iamcco/markdown-preview.nvim'
-
-call vundle#end()
 filetype plugin indent on
 
 colorscheme monochromicon
