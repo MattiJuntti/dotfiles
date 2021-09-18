@@ -15,6 +15,8 @@ call plug#begin('~/.vim/plugged')
     Plug 'triglav/vim-visual-increment'
     Plug 'tpope/vim-surround'
     Plug 'iamcco/markdown-preview.nvim'
+    Plug 'junegunn/fzf'
+    Plug 'junegunn/fzf.vim'
 call plug#end()
 
 filetype plugin indent on
@@ -39,6 +41,8 @@ set autoread | au CursorHold * checktime
 :inoremap jj <C-c>
 :map <f9> :make
 
+set fillchars+=vert:│
+
 " supertab _____________________________________________________________
 let g:SuperTabDefaultCompletionType = "<c-n>"
 
@@ -46,10 +50,17 @@ let g:SuperTabDefaultCompletionType = "<c-n>"
 let g:airline_theme='term'
 let g:airline_powerline_fonts = 1
 
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
+
 let g:airline_left_sep = ''
 let g:airline_left_alt_sep = ''
 let g:airline_right_sep = ''
 let g:airline_right_alt_sep = ''
+let g:airline_symbols.colnr = ' col:'
+let g:airline_symbols.linenr = ' row:'
+let g:airline_symbols.maxlinenr = ' '
 
 " closetag _____________________________________________________________
 let g:closetag_filenames='*.php,*.html,*.md'
