@@ -62,4 +62,4 @@ hi VertSplit       guifg=#FFFFFF    guibg=#000000    ctermfg=257    ctermbg=234 
 hi Visual          guifg=#FFFFFF    guibg=#000000    ctermfg=257    ctermbg=4      gui= NONE    cterm=NONE
 hi VisualNOS       guifg=#FFFFFF    guibg=#000000    ctermfg=257    ctermbg=234    gui= NONE    cterm=NONE
 hi WarningMsg      guifg=#FFFFFF    guibg=#000000    ctermfg=257    ctermbg=234    gui= NONE    cterm=NONE
-hi WildMenu        guifg=#FFFFFF    guibg=#000000    ctermfg=257    ctermbg=234    gui= NONE    cterm=NONE
+hi WildMenu        guifg=#FFFFFF    guibg=#000000    ctermfg=257    ctermbg=239    gui= NONE    cterm=NONE
